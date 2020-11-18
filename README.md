@@ -1,1 +1,10 @@
 # growdev-starter-projetos
+
+Olá, esse repositório contém os projetos desenvolvidos no **Programa Starter** da [Growdev](https://growdev.com.br/starter).  O objetivo do programa é formar pessoas desenvolvedoras de software web full stack, focado nas tecnologias React, Node.js, Redis, Heroku e GitHub.
+
+A 3a edição do programa teve início em Agosto de 2020, com previsão de duração de 45 semanas e no formato remoto. Tanto nas aulas quanto nas revisões, são desenvolvidos projetos com a participação de alunos(as) e mentores(as).
+
+Os projetos deste repositório são os seguintes:
+
+ 1. Apresentação pessoal em HTML
+ 2. Apresentação pessoal em HTML e CSS
