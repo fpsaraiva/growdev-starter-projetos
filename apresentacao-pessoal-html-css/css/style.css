@@ -1,0 +1,35 @@
+html { 
+  background: url(../img/cool-background.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  font-size: 40px;
+  color: white;
+  text-align: center;
+  margin: 50px;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  border-radius: 20px;
+}
+
+.sobre_mim {
+  margin-left:auto; 
+  margin-right:auto;
+  font-size: 1em;
+  color: white;
+  text-align: center;
+}
