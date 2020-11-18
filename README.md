@@ -6,5 +6,5 @@ A 3a edição do programa teve início em Agosto de 2020, com previsão de dura�
 
 Os projetos deste repositório são os seguintes:
 
- 1. Apresentação pessoal em HTML
- 2. Apresentação pessoal em HTML e CSS
+ 1. [Apresentação pessoal em HTML](https://github.com/fpsaraiva/growdev-starter-projetos/tree/main/apresentacao-pessoal-html)
+ 2. [Apresentação pessoal em HTML e CSS](https://github.com/fpsaraiva/growdev-starter-projetos/tree/main/apresentacao-pessoal-html-css)
