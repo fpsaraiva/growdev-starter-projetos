@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora JS</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+  <form class="calculator">
+    <input class="value" id="display" readonly="">
+    <span class="operation" onclick="digitar(event)"> + </span>
+    <span class="operation" onclick="digitar(event)"> - </span>
+    <span class="operation" onclick="digitar(event)"> x </span>
+    <span class="operation" onclick="digitar(event)"> / </span>
+    <span onclick="digitar(event)">7</span>
+    <span onclick="digitar(event)">8</span>
+    <span onclick="digitar(event)">9</span>
+    <span class="equal" onclick="calcular()"> = </span>
+    <span onclick="digitar(event)">4</span>
+    <span onclick="digitar(event)">5</span>
+    <span onclick="digitar(event)">6</span>
+    <span onclick="digitar(event)">1</span>
+    <span onclick="digitar(event)">2</span>
+    <span onclick="digitar(event)">3</span>
+    <span onclick="digitar(event)">0</span>
+    <span onclick="digitar(event)">.</span>
+    <span class="clear" onclick="limparDisplay()"> C </span>
+  </form>
+
+  <script src="./js/index.js"></script>
+</body>
+</html>
