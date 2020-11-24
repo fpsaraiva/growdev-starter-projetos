@@ -11,3 +11,4 @@ Os projetos deste repositório são os seguintes:
  3. [Landing page em CSS](https://github.com/fpsaraiva/growdev-starter-projetos/tree/main/landing-page-css)
  4. [Exercícios de Lógica com JavaScript - Parte 1](https://github.com/fpsaraiva/growdev-starter-projetos/tree/main/exercicios-js-parte-1)
  5. [Exercícios de Lógica com JavaScript - Parte 2](https://github.com/fpsaraiva/growdev-starter-projetos/tree/main/exercicios-js-parte-2)
+ 6. [Calculadora em JavaScript](https://github.com/fpsaraiva/growdev-starter-projetos/tree/main/calculadora-js)
