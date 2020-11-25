@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Sorteador de Duplas</title>
+</head>
+<body>
+  <main id="sorteador-painel">
+
+    <header>
+      <img src="./img/logo.png" alt="logo da growdev">
+    </header>
+    
+    <h1 class="sorteador-titulo">Sorteador de Duplas</h1>
+    
+    <section class="sorteador-input-secao">
+      <input type="text" id="sorteador-input">
+      <button id="sorteador-botao-adicionar" onclick="adicionaAlunoNaLista()">
+        <img src="./img/add-icon.svg" alt="botão de adicionar aluno">
+      </button>
+      <button id="sorteador-lista-sorteia-duplas-botao" onclick="reordenarListaDeAlunos()">
+        <img src="./img/search-icon.svg" alt="botão de sortear duplas">
+      </button>
+      <button id="sorteador-lista-limpa-tudo-botao" onclick="limparListadeAlunos()">
+        <img src="./img/delete-icon.svg" alt="botão de excluir todos alunos">
+      </button>
+    </section>
+
+    <section class="sorteador-lista-secao">
+      <ul id="sorteador-lista"></ul>
+      
+    </section>
+
+  </main>
+
+  <script src="./js/index.js"></script>
+</body>
+</html>

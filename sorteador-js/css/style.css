@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  background: linear-gradient(to bottom right, transparent 50%, #e16e0e 50%)
+  right -1px top 0/100% 100% no-repeat,
+  #ffffff;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+#sorteador-painel {
+  width: 600px;
+  height: 85vh;
+  background: #ffffff;
+  border-radius: 5px;
+  box-shadow: -60px 60px 60px rgba(4, 3, 49, 0.27);
+  overflow: auto;
+}
+
+header {
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #2b385b;
+  border-radius: 5px;
+}
+
+header img {
+  width: 30vh;
+}
+
+.sorteador-titulo {
+  font-size: 30px;
+  text-align: center;
+  color: #2b385b;
+}
+
+.sorteador-input-secao {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#sorteador-input {
+  width: 55%;
+  padding: 6px;
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 8px;
+  width: 50px;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+}
+
+.sorteador-lista-secao {
+  margin-top: 30px;
+}
+
+#sorteador-lista {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.aluno-lista-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #f4f3fa;
+  padding-left: 10px;
+  border-radius: 5px;
+  margin: 10px;
+  width: 87%;
+  margin-left: 34px;
+}
+
+.aluno-lista-item-acoes,
+.aluno-lista-item-conteudo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
