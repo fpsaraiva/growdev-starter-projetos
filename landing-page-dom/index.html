@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Single Page - Desafio DOM</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  </head>
+  <body>
+
+    <header>
+      <nav>
+        <section class="menu">
+          <div class="col">Home</div>
+          <div class="col content-end">
+            <div class="avatar" id="avatar"></div>
+          </div>
+        </section>
+        <section class="logout pointer" id="logout">
+          <span>Logout</span>
+          <i class="material-icons pointer">exit_to_app</i>
+        </section>
+      </nav>
+    </header>
+    
+    <main>
+      <section class="login" id="login"> 
+        <form>
+          <div class="form-group">
+            <h1>Dom!</h1>
+          </div>
+          <div class="form-group">
+            <input type="text" placeholder="E-mail" name="email" id="email" />
+            <i class="material-icons">mail</i>
+          </div>
+          <div class="form-group">
+            <input type="email" placeholder="Senha" name="password" id="password" />
+            <i class="material-icons pointer" id="visibility">visibility_off</i>
+          </div>
+          <div class="form-group">
+            <button type="button" onclick="login()">ENTRAR</button>
+          </div>
+        </form>
+      </section>
+
+      <section class="content" id="content">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ultricies 
+          justo in nunc suscipit sagittis. Pellentesque mattis, neque quis lacinia 
+          euismod, eros mauris egestas ipsum, at rutrum arcu eros pellentesque arcu. 
+          In id mi elit. Phasellus feugiat cursus purus, eget finibus justo ornare vitae. 
+          Morbi ultricies lorem ut velit semper eleifend. Nullam id turpis viverra, 
+          dictum risus at, accumsan leo. Nam euismod venenatis sodales. Sed sollicitudin 
+          porttitor arcu at feugiat. In in nisl libero. Fusce nisi enim, gravida 
+          vel hendrerit et, maximus vitae ipsum. Donec semper convallis massa, nec 
+          venenatis sem consequat vitae. Aenean pellentesque et quam quis dignissim. 
+          Duis rutrum ac ex non viverra. Mauris luctus tristique leo. Sed ut tincidunt 
+          augue.
+        </p>
+      </section>
+    </main>
+
+    <footer>Produced by a (proud) Growdever - 2020</footer>
+    <script src="./js/users.js"></script>
+    <script src="./js/scripts.js"></script>
+  </body>
+</html>
