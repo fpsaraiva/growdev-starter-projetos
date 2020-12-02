@@ -15,3 +15,4 @@ Os projetos deste repositório são os seguintes:
  7. [Sorteador de Duplas em JavaScript](https://github.com/fpsaraiva/growdev-starter-projetos/tree/main/sorteador-js)
  8. [Landing Page - Desafio DOM](https://github.com/fpsaraiva/growdev-starter-projetos/tree/main/landing-page-dom)
  9. [Exercícios de Layout com Bootstrap](https://github.com/fpsaraiva/growdev-starter-projetos/tree/main/exercicios-bootstrap)
+ 10. [Scrapbook com Bootstrap](https://github.com/fpsaraiva/growdev-starter-projetos/tree/main/scrapbook)
