@@ -11,7 +11,7 @@ function createCard() {
   const title = document.getElementById("inputTitle");
   const content = document.getElementById("inputContent");
   const avatar = `https://www.gravatar.com/avatar/${getRandomInt(1, 500)}?d=robohash`;
-
+ 
   if(title.value == "" || content.value == "") {
     alert("Digite valores");
   } else {
@@ -42,7 +42,6 @@ function addCard(newCard) {
                     </div>`;
   
   cards.push(newCard);
-
   content.innerHTML += html;
   saveLocalStorage();
 }
